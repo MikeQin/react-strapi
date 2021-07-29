@@ -3,6 +3,8 @@
 - YouTube: https://www.youtube.com/watch?v=4Ntd414raYc&list=PL4cUxeGkcC9h6OY8_8Oq6JerWqsKdAPxn
 - Github: https://github.com/iamshaunjp/Strapi-Crash-Course
 
+## Strapi Part - Backend
+
 ### Install Strapi
 ```
 npx create-strapi-app backend
@@ -14,7 +16,7 @@ admin password: Admin123
 ```
 cd backend
 
-npm develop | npm run develop
+npm run develop
 
 "scripts": {
   "develop": "strapi develop",
@@ -24,6 +26,10 @@ npm develop | npm run develop
 }
 
 ```
+
+Enable and download GraphQL from Marketplace
+
+## React Part - Frontend
 
 ### Install React
 
@@ -43,4 +49,16 @@ npm start | npm run start
 
 ```
 npm install react-router-dom
+```
+
+### Install GraphQL Packages
+
+```
+npm install @apollo/client graphql
+```
+
+### Install react-markdown
+
+```
+npm install react-markdown
 ```
